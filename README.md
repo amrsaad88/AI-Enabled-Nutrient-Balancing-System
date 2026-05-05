@@ -60,24 +60,22 @@ The system achieved high predictive performance and operational reliability:
 - Prediction accuracy of approximately 96%  
 - Forecast horizon of 15 minutes  
 - Real-time response latency below 2 seconds  
-
 The model effectively distinguishes between normal plant behavior and critical nutrient deficiencies, enabling timely intervention.
-
 ---
+## Future Work
 
-## Installation and Setup
+- Development of a mobile application for system monitoring  
+- Expansion to detect specific nutrient deficiencies  
+- Deployment of AI models directly on edge devices  
+- Integration with large-scale smart greenhouse systems
+---
+## Team
 
-### Hardware Setup
-- Connect all sensors to the ESP32 microcontroller  
-- Upload the firmware using the Arduino environment  
+- **Amr Saad Abdelgaber**  
+  amr.120230132@ejust.edu.eg  
 
-### Software Setup
-```bash
-# Clone the repository
-git clone https://github.com/your-repository-name.git
+- **Karim Galal Hassan**  
+  kareem.120230108@ejust.edu.eg  
 
-# Install required dependencies
-pip install -r requirements.txt
-
-# Run the AI model
-python main.py
+- **Omar Walid Elsayed**  
+  omar.120230143@ejust.edu.eg  
